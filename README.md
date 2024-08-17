@@ -52,11 +52,7 @@ NLP와 관련된 연구 노트
 - 기본적으로 MLops + LLM과 같은 의미로 사용됨
 - MLops와 다르게 추가적으로 RAG와 RLHF도 포함됨
 
-## figma
-- 
-
-## streamlit
-- 
-
-## gradio
-- 
+## UI/UX 서비스 관련
+- figma (UI/UX 관리)
+- streamlit (Web)
+- gradio (App)
