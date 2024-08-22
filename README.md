@@ -10,6 +10,21 @@ NLP와 관련된 연구 노트
 
 기타 흥미로운 세부 주제! 하나씩 내용을 찾아서 정리하자~
 
+## LLAMA
+- 다운로드 방법
+  - Mac OS
+    - [https://ollama.com/download/mac](https://ollama.com/download/mac) 에 들어가서 파일 다운로드
+  - Linux
+    ```shell
+    curl -fsSL https://ollama.com/install.sh | sh
+    ```
+  - Windows
+    - [https://ollama.com/download/windows](https://ollama.com/download/windows) 에 들어가서 OllamaSetup.exe 파일 다운로드
+- 실행 방법!
+  
+
+
+
 ## LLM (Large Language Model)
 - 방대한 양의 텍스트 데이터를 학습하여 다양한 종류의 텍스트를 생성할 수 있는 능력을 갖춘 모델
 
