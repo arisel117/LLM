@@ -20,7 +20,20 @@ NLP와 관련된 연구 노트
     ```
   - Windows
     - [https://ollama.com/download/windows](https://ollama.com/download/windows) 에 들어가서 OllamaSetup.exe 파일 다운로드
-- 실행 방법!
+    - OllamaSetup.exe 파일을 실행하여 [Install] 진행
+    - Terminal(Git bash, Anaconda Prompt, cmd 등) 실행 후, 설치 확인을 위해 다음 코드 입력 (Available Commands 어쩌구 나오면 성공적으로 설치 완료!)
+      ```shell
+      ollama -h
+      ```
+    - 모델 다운로드 진행 (여기선 4.7gb인 llama 3.1 8b 모델을 다운로드함)
+      ```shell
+      ollama run llama3.1:8b
+      ``` 
+    - 이후 대화 가능
+- vscode에서 실행 방법
+  - extension에서 [codegpt] 다운로드
+  - 설정에서 [ollama] - [llama3.1:8b] 선택 후 실행
+  - 하단 대화창에서 대화 가능
   
 
 
