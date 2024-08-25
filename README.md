@@ -28,7 +28,8 @@ NLP와 관련된 연구 노트
     - 모델 다운로드 진행 (여기선 4.7gb인 llama 3.1 8b 모델을 다운로드함)
       ```shell
       ollama run llama3.1:8b
-      ``` 
+      ```
+      * 이 밖에도 다양한 모델을 사용 가능함!!
     - 이후 대화 가능
 - vscode에서 실행 방법
   - extension에서 [codegpt] 다운로드
