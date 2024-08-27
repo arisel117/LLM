@@ -42,7 +42,7 @@ NLP와 관련된 연구 노트
   - extension에서 [codegpt] 다운로드
   - 설정에서 [ollama] - [llama3.1:8b] 선택 후 실행
   - 하단 대화창에서 대화 가능
-  
+  - 실행을 위해서는 앞서서 ollama로 llama3.1:8b 설치 및 실행 필요
 
 
 
