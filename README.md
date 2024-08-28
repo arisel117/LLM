@@ -4,11 +4,10 @@
 NLP와 관련된 연구 노트
 
 (이후 천천히 추가 할 예정!!)
-라마3 설치랑 테스트 해보기!
-  - https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct
-
 
 기타 흥미로운 세부 주제! 하나씩 내용을 찾아서 정리하자~
+
+
 
 ## LLAMA 3.1 8b
 - 사용 후기
