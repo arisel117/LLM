@@ -3,6 +3,9 @@
 
 NLP와 관련된 연구 노트! 추후 내용 추가 예정!!
 
+torchtune이랑 pytorch에서 llama를 불러오는 방법들 등을 찾아보자~
+
+
 
 ## LLAMA 3.1 8b
 - 사용 후기
