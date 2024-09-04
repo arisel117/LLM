@@ -4,7 +4,8 @@
 NLP와 관련된 연구 노트! 추후 내용 추가 예정!!
 
 torchtune이랑 pytorch에서 llama를 불러오는 방법들 등을 찾아보자~
-
+- nano llama를 통해 의존성 최소화된 llama 사용법!
+  - [https://github.com/karpathy/nano-llama31?utm_source=pytorchkr&ref=pytorchkr](https://github.com/karpathy/nano-llama31?utm_source=pytorchkr&ref=pytorchkr)
 
 
 ## LLAMA 3.1 8b
