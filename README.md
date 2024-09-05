@@ -41,7 +41,11 @@ torchtune이랑 pytorch에서 llama를 불러오는 방법들 등을 찾아보�
   - 설정에서 [ollama] - [llama3.1:8b] 선택 후 실행
   - 하단 대화창에서 대화 가능
   - 실행을 위해서는 앞서서 ollama로 llama3.1:8b 설치 및 실행 필요
-
+- Docker hub에서 가져오는 방법
+  - [https://hub.docker.com/r/ollama/ollama](https://hub.docker.com/r/ollama/ollama) 참고
+  - ```shell
+    docker pull ollama/ollama
+    ```
 
 
 ## LLM (Large Language Model)
