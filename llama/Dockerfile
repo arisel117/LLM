@@ -25,13 +25,13 @@ RUN set -xe && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-$ Set up NVIDIA CUDA packages
+$ Set up NVIDIA CUDA packages (Required about 450s)
 RUN wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.1-1_all.deb && \
     dpkg -i cuda-keyring_1.1-1_all.deb && \
     apt-get update && \
     apt-get -y install cuda-toolkit-12-6
 
-# Set up Python environment and install Python packages
+# Set up Python environment and install Python packages (Required about 60s)
 RUN set -xe && \
     add-apt-repository ppa:deadsnakes/ppa -y && \
     apt-get update && \
@@ -61,7 +61,7 @@ RUN set -xe && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-# Set up Pytorch
+# Set up Pytorch (Required about 120s)
 RUN set -xe && \
     apt-get update && \
     python -m pip install --no-cache-dir torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cu121
@@ -76,7 +76,7 @@ RUN find /usr/local/cuda-*/lib*/ -type f -name 'lib*_static.a' -not -name 'libcu
     echo "/usr/local/cuda/lib64/stubs" > /etc/ld.so.conf.d/z-cuda-stubs.conf && \
     ldconfig
 
-# install web dev package
+# install web dev package (Required about 10s)
 RUN curl -fsSL https://code-server.dev/install.sh | sh && \
     mkdir -p ~/.config/code-server
 
