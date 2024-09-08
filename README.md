@@ -47,6 +47,10 @@ NLP와 관련된 연구 노트! 추후 내용 추가 예정!!
   - ```shell
     docker pull ollama/ollama
     ```
+- Fine Tuning
+  - 작업 환경 구성
+    - Dockerbuild 파일 작성 중!
+
 
 
 ## LLM (Large Language Model)
