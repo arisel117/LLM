@@ -90,4 +90,4 @@ CMD ["bash"]
 
 # Build Dockerfile and run container
 # docker build . --tag test_llama:3.1b
-# docker run -it --rm --gpus all --ipc=host --name cj_test test_llama:3.1b bash
+# docker run -it --rm --gpus all --ipc=host --name test_llama test_llama:3.1b bash
