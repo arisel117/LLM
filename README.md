@@ -49,8 +49,13 @@ NLP와 관련된 연구 노트! 추후 내용 추가 예정!!
     ```
 - Fine Tuning
   - 작업 환경 구성
-    - Dockerbuild 파일 작성 중!
-
+    - [llama](https://github.com/arisel117/NLP/tree/main/llama) 페이지에 있는 Dockerfile 사용
+      ```shell
+      docker build . --tag test_llama:3.1b
+      docker run -it --rm --gpus all --ipc=host --name test_llama test_llama:3.1b bash
+      ```
+  - 학습 진행
+    - 작업중!
 
 
 ## LLM (Large Language Model)
