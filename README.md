@@ -56,6 +56,10 @@ NLP와 관련된 연구 노트! 추후 내용 추가 예정!!
       ```
   - 학습 진행
     - 작업중!
+      - huggingface에서 모델 로드
+      - 데이터 로드
+      - 학습 진행
+      - 모델 저장
 
 
 ## LLM (Large Language Model)
