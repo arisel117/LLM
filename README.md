@@ -55,6 +55,7 @@ NLP와 관련된 연구 노트! 추후 내용 추가 예정!!
       docker run -it --rm --gpus all --ipc=host --name test_llama test_llama:3.1b bash
       ```
   - 학습 진행
+    - [unsloth](https://unsloth.ai/) 이용
     - 작업중!
       - huggingface에서 모델 로드
       - 데이터 로드
